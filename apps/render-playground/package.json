@@ -9,7 +9,7 @@
     "lint": "echo 'Add lint script here'"
   },
   "dependencies": {
-    "@repo/eslint-config": "*",
+    "@repo/eslint-config": "^0.0.0",
     "@repo/typescript-config": "*",
     "@repo/ui": "*",
     "next": "^14.2.8",
