@@ -1,7 +1,7 @@
 "use client";
 import { memo, useState } from "react";
 
-const InnerComponent = (props) => {
+const InnerComponent = (props: any) => {
   const { count } = props;
   if (count) {
     return <div>has count InnerComponent{count} counting</div>;
@@ -19,7 +19,7 @@ const MemoComponent2 = memo((props: { memoCount: number }) => {
   return <div>counting memo: {props.memoCount}</div>;
 });
 
-function Home(props) {
+function Home(props: any) {
   const [count, setCount] = useState(0);
   const [memoCount, setMemoCount] = useState(0);
 
@@ -44,7 +44,7 @@ function Home(props) {
   );
 }
 export default function PageHome() {
-  const [hoeme, setHome] = useState("home");
+  const [hoeme] = useState("home");
   return (
     <Home>
       여기는 children {hoeme} <InnerComponent />{" "}
