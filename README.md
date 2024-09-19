@@ -3,6 +3,7 @@
 > MEMO: 각 프로젝트마다 vercel에 연결하여 배포 필요
 
 - render-playground: https://react-playground-docs.vercel.app/
+- nextjs-learn: https://react-playground-nextjs-learn.vercel.app/
 
 # Turborepo starter
 
