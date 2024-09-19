@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo --port 3003",
-    "build": "echo 'Add build script here'",
+    "build": "next build",
     "test": "echo 'Add test script here'",
     "lint": "echo 'Add lint script here'"
   },
